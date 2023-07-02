@@ -1,0 +1,130 @@
+
+.home-hero {
+    /* margin-top: 14.4em; */
+    height: 72em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-hero h1 {
+    /* max-width: 60%; */
+    font-size: 6.4em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.expertise {
+    display: flex;
+    align-items: center;
+    margin-top: 3.2em;
+    gap: 0.8em;
+    font-size: 1.4em;
+}
+
+.expertise span {
+    background-color: #f3f2f1;
+    font-weight: 500;
+    padding: 0.4em 0.8em;
+    border-radius: 3em;
+}
+
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.8em;
+} 
+
+.contact {
+    height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+.contact a {
+    color:#7f7f7f;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .left {
+    font-size: 0.8rem;
+}
+
+footer .right {
+    display: flex;
+    gap: 0.8em;
+}
+
+footer .right a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .home-hero h1 {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home-hero h1 {
+        font-size: 5em;
+    }
+}
+
+
+@media screen and (max-width: 810px) {
+    .project-gallery {
+        grid-template-columns: 1fr;
+        gap: 6em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .home-hero {
+        height: 48em;
+    }
+
+    .home-hero h1 {
+        font-size: 2.8em;
+    }
+
+    .expertise {
+        display: flex;
+        align-items: center;
+        margin-top: 3.2em;
+        gap: 0.8em;
+        font-size: 1em;
+    }
+    
+    .expertise span {
+        background-color: #f3f2f1;
+        font-weight: 500;
+        padding: 0.4em 0.8em;
+        border-radius: 3em;
+    }
+    
+}

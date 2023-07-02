@@ -1,0 +1,41 @@
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-bar {
+    position: fixed;
+    z-index: 99;
+    top: 2.4em;
+    /* margin-top: 2.4em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    /* background-color: #f3f2f1; */
+    /* padding: 1.6em 2.4em; */
+    border-radius: 3em;
+    backdrop-filter: blur(11px) saturate(180%);
+    -webkit-backdrop-filter: blur(11px) saturate(180%);
+    background-color: rgba(243, 242, 241, 0.61);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 500;
+    display: flex;
+    padding: 0.8em 1.6em;
+}
+
+.nav.active {
+    background-color: #FFFFFF;
+    margin: 0.4em;
+    display: flex;
+    padding: 0.8em 1.6em;
+    border-radius: 3em;
+} 
